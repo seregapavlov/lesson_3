@@ -1,0 +1,63 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+
+/* ================================================================ */
+#chapter1 {
+    color: aqua;
+}
+#chapter2 {
+    color: rgb(25, 0, 255);
+}
+#chapter3 {
+    color: rgb(166, 255, 0);
+}
+#chapter4 {
+    color: rgb(212, 0, 255);
+}
+#chapter5 {
+    color: rgb(255, 0, 212);
+}
+#chapter6 {
+    color: rgb(255, 153, 0);
+}
+#chapter7 {
+    color: rgb(225, 0, 255);
+}
+a {
+    color: blueviolet;
+}
+h1 {
+    color: chartreuse;
+    font-size: 24px;
+}
+div .paragraf {
+    color: red;
+}
